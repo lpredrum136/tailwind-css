@@ -1,0 +1,22 @@
+yarn init
+yarn add tailwindcss
+
+Co the npx tailwindcss init de tao tailwind.config.js
+
+extensions:
+https://marketplace.visualstudio.com/items?itemName=csstools.postcss
+https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+
+nho chinh lai "content" trong tailwind.config.js de css kick in
+
+- dung rebuilding css with --watch (don't keep running yarn build-css), live server k chiu duoc nhiet
+
+yarn build-css & open with live server: Doi khi phai manual refresh
+
+yarn global add live-server
+yarn global bin to copy the path
+paste this path in Windows env vars (HP user only)
+live-server public
+
+Default config:
+https://github.com/tailwindlabs/tailwindcss/blob/v1/stubs/defaultConfig.stub.js#L5
